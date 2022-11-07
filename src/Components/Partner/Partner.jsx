@@ -12,7 +12,7 @@ const Partner = () => {
             {data.map((el) => {
               return (
                 <div key={el.id}>
-                  <img src={el.image} />
+                  <img src={el.image} alt="img"/>
                 </div>
               );
             })}
