@@ -1,8 +1,11 @@
 import React from 'react'
+import Partner from '../Components/Partner/Partner'
 
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <div>
+      <Partner/>
+    </div>
   )
 }
 
