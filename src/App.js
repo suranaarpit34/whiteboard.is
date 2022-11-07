@@ -1,7 +1,10 @@
 import "./App.css";
+import Whiteboard from "./Routes/Whiteboard";
 
 function App() {
-  return <div></div>;
+  return <div>
+    <Whiteboard/>
+  </div>;
 }
 
 export default App;
